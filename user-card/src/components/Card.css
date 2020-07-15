@@ -1,22 +1,18 @@
-.body{
-    background: black;
-}
+
 .card{
     box-shadow: 12px 12px 10px white;
-    width: 300px;
+    width: 400px;
     margin: 100px 400px auto 100px;
-    border-radius: 10px;
-    background: black;
+    text-align: start;
+    border: 1px solid black;
+    font-size: 12px;
 }
-.design{
-    background-color: tomato;
-    width: 300px;
-    border-radius: 0px 0px 9px 9px;
-}
+
 .username{
-    box-shadow: 1px 1px 1px white;
-    color: white;
+    color: black;
+    margin: 10px;
 }
 .followers{
-    color: white;
+    color: black;
+    margin: 10px;
 }

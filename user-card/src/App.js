@@ -18,12 +18,20 @@ class App extends React.Component {
     .then(res => {
       this.setState({
         username : res.data.login,
-        followers : res.data.followers
       })
-      console.log(res.data.followers)
     })
     .catch(err => {
       console.log(err)
+    })
+    axios
+    .get('https://api.github.com/users/JonathanC7/followers')
+    .then(res => {
+      this.setState({
+        followers: res.data
+      })
+    })
+    .catch(err => {
+      console.log(err);
     })
   }
   render(){

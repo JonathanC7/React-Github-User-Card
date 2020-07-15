@@ -6,8 +6,7 @@ class Card extends React.Component{
         return(
             <div className='card'>
                 <h1 className='username'>Username: {this.props.data.username}</h1>
-                <h2 className='followers'>Followers: {this.props.data.followers}</h2>
-                <div className='design'>'                    '</div>      
+                <h2 className='followers'>Followers: {this.props.data.followers}</h2> 
             </div>
         )
     }
