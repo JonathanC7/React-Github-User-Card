@@ -1,0 +1,18 @@
+
+.card{
+    box-shadow: 12px 12px 10px white;
+    width: 400px;
+    margin: 100px 400px auto 100px;
+    text-align: start;
+    border: 1px solid black;
+    font-size: 12px;
+}
+
+.username{
+    color: black;
+    margin: 10px;
+}
+.followers{
+    color: black;
+    margin: 10px;
+}
